@@ -154,7 +154,7 @@ function render() {
   const main = document.createElement('main');
 
   const leftSide = document.createElement('section');
-  leftSide.append(PlayerCollection());
+  leftSide.append(PlayerCollection(), NewPlayerForm());
 
   const rightSide = document.createElement('section');
   rightSide.append(SelectedPlayerDetails());
